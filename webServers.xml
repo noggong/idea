@@ -1,0 +1,70 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c6188a33-e274-45b8-b6a5-80c118588316" name="fatmouse-dev" url="http://52.79.42.75">
+        <fileTransfer host="52.79.42.75" port="22" privateKey="$USER_HOME$/.ssh/fatmouse2016.pem" rootFolder="/home/noggong/" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d5436dc8-1853-423b-b256-fbeeba40cad8" name="mileag-web" url="http://52.192.173.143">
+        <fileTransfer host="52.192.173.143" port="22" privateKey="$USER_HOME$/.ssh/Gamcoach-AWS-key.pem" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9d17c7b7-ce04-492f-92ed-b1f021c50c84" name="dayspring" url="http://dayspringartgroup.com">
+        <fileTransfer host="dayspringartgroup.com" port="21" rootFolder="/www" username="daypring" password="dfdadfcbdfc4dfcddfd3dfe5df9adf99df8b">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec3591b7-a180-4784-8ba0-273720437358" name="noggong-blog" url="http://noggong.kr">
+        <fileTransfer host="noggong.kr" port="22" privateKey="$USER_HOME$/.ssh/noggong-aws.pem" rootFolder="/home/noggong" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fee3a838-d920-406a-9822-dc505bd02eac" name="noggong-desktop" url="http://182.226.110.247:8080/">
+        <fileTransfer host="182.226.110.247" port="221" username="noggong" password="dfc1dfdddf9adf93df9adf9a">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="221" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="82ff6e6c-35fc-4b20-90ce-7ff8b2970453" name="jeonginpm" url="http://jeonginpmc.com ">
+        <fileTransfer host="jeonginpmc.com" port="22" rootFolder="/home/hosting_users/kavills/www" accessType="SFTP" username="kavills">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="96a6c8ad-e191-4987-b95c-a1588fdff900" name="shinwon" url="http://182.162.154.107">
+        <fileTransfer host="182.162.154.107" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2f256e8e-91fd-4369-8c9d-7906c8241dc0" name="commercelab" url="http://117.52.153.103">
+        <fileTransfer host="117.52.153.103" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

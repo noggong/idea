@@ -1,0 +1,16 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <removed_mapping ext="htm" type="HTML" />
+      <removed_mapping ext="html" type="HTML" />
+      <mapping pattern="jamsune" type="Native" />
+      <mapping ext="html" type="PHP" />
+      <mapping ext="htm" type="PHP" />
+      <mapping pattern="Paginator.js" type="PLAIN_TEXT" />
+      <mapping pattern="RepresentativeArticle.php" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
