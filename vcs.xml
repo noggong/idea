@@ -6,6 +6,10 @@
           <option name="url" value="git@git.pensionrun.com:dev-team-supply/supply-api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.pensionrun.com:dev-team/WebServer-Module-API.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
