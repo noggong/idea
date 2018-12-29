@@ -519,7 +519,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="5e55a107-9082-481a-b244-de8315b662e6" load_method="CUSTOM_LOADER" custom_loader_path="/Users/noggong/bin/phpunit.phar" phpunit_phar_path="/Users/noggong/PhpstormProjects/DesignPatternsPHP/phpunit.phar" />
+      <phpunit_by_interpreter interpreter_id="5e55a107-9082-481a-b244-de8315b662e6" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/phpunit.xml.dist" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="/Users/noggong/PhpstormProjects/DesignPatternsPHP/phpunit.phar" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
